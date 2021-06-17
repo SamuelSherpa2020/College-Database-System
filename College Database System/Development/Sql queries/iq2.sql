@@ -1,0 +1,1 @@
+Select module_id from inst_module group by module_id having count(inst_id)>1;
